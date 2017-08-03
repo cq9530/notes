@@ -1,0 +1,10 @@
+	Date:	2017年8月2日 GMT+8 上午11:46:13
+	Weather:	34°C Mostly Cloudy
+	Location:	文三路500号, 杭州市, 浙江省, 中国
+
+上传
+git init
+git add .
+git commit -m ‘’ 
+git remote add origin https:....
+git push origin master

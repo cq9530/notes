@@ -1,0 +1,11 @@
+	Date:	2017年7月25日 GMT+8 下午3:37:18
+	Location:	30.277° N, 120.121° E
+
+AMD
+Asynchronous Module Definition 异步模块定义
+	采用异步方式加载模块，不影响后面语句的运行
+	所有依赖这个模块的语句，都定义在一个回调函数中，等到加载完成之后这个回调函数才会运行
+
+	AMD也采用require()语句加载模块，但是不同于CommonJS，它要求两个参数：
+		module： 一个数组  包含要加载的模块 
+		callback：加载成功之后的回调函数

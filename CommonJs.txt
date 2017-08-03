@@ -1,0 +1,14 @@
+	Date:	2017年7月25日 GMT+8 下午3:28:33
+	Location:	文三路500号, 杭州市, 浙江省, 中国
+
+CommonJS
+CommonJS定义的模块分为：  {模块引用(require)} 
+							 {模块定义(exports)}  
+					 		 {模块标识(module)}
+require()用来引入外部模块； （全局性方法）
+exports()对象用于导出当前模块的方法或变量，唯一的导出口；
+Module对象就代表模块本身
+
+Node.js的模块系统就是参照CommonJS规范实现的。
+
+CommonJS规范不适用于浏览器环境。
